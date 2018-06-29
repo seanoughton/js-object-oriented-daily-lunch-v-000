@@ -54,9 +54,10 @@ class Neighborhood {
 
     console.log(thisNeighborhoodDeliveries);
     function onlyUnique(value, index, self) {
-      //if there are two values(objects) that are the same
-      // then self.indexOf(value) returns the same index?
-      console.log(value);
+      //indexOf goes through the array(in order) looking for the value(object), when it hits that value(object) it stops and returns the index
+      //for a repeated value, it stops at the first value, and never hits the second one, indexOf will always return the index of the first value of the repeated values
+      //therefore if you a looping throuh the array with indexOf, and you are at an index past the first value, and you have a repeat value, the indexOf the value will not be the same as the actual index, therefore that value will not be added to the return array
+      
       return self.indexOf(value) === index;
     }
     return thisNeighborhoodDeliveries.filter(onlyUnique);
