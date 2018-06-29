@@ -54,7 +54,7 @@ class Neighborhood {
 
 
     function onlyUnique(value, index, self) {
-      console.log(self.indexOf(value));
+      console.log(self);
       return self.indexOf(value) === index;
     }
     return thisNeighborhoodDeliveries.filter(onlyUnique);
