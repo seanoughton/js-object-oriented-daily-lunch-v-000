@@ -71,7 +71,8 @@ class Customer {
 
   //returns the total amount that the customer has spent on food.
   totalSpent(){
-    
+    this.meals // all the meals a customer has ordered 
+    // reduce this array down to the sum of the price of the meals
   };
 
 }
