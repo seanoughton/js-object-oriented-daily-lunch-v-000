@@ -58,7 +58,10 @@ class Neighborhood {
       const idSorter = function (object1,object2) {
         return object1.id - object2.id 
       };
+      return objectArray.sort(idSorter);
     };
+
+    console.log(makeUnique(thisNeighborhoodDeliveries));
 
     function onlyUnique(value, index, self) {
       return self.indexOf(value) === index;
