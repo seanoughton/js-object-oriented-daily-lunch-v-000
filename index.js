@@ -95,7 +95,6 @@ class Meal {
     const numSorter = function(meal1,meal2){
       return meal2.price - meal1.price;
     };
-    console.log(store.meals.sort(numSorter));
     return store.meals.sort(numSorter);
   };
 }
