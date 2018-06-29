@@ -53,7 +53,8 @@ class Neighborhood {
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
 
     function makeUnique(objectArray){
-      
+      //go through each element in the array and compare it to the previous one
+      //if the two elements are the same, then don't add them to the new array
     };
 
     function onlyUnique(value, index, self) {
