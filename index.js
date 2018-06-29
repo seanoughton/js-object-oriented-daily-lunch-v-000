@@ -64,8 +64,8 @@ class Neighborhood {
       return objectArray.sort(idSorter);
     };
 
-    console.log(makeUnique(thisNeighborhoodDeliveries));
-
+    //console.log(makeUnique(thisNeighborhoodDeliveries));
+    console.log(thisNeighborhoodDeliveries);
     function onlyUnique(value, index, self) {
       return self.indexOf(value) === index;
     }
