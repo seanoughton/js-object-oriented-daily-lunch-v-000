@@ -57,7 +57,7 @@ class Neighborhood {
 
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
     console.log(thisNeighborhoodDeliveries);
-    return store.meals;
+    return thisNeighborhoodDeliveries;
   };
 
 }
