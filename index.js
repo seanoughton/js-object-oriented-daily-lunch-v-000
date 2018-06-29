@@ -76,7 +76,7 @@ class Customer {
     const reducer = function (agg,el,i,arr) {
 	      return agg + el.price;
       };
-    return store.meals.reduce(reducer,0));
+    return store.meals;
   };
 
 }
