@@ -58,7 +58,7 @@ class Neighborhood {
       return self.indexOf(value) === index;
     }
     //return thisNeighborhoodDeliveries.filter(onlyUnique);
-    return thisNeighborhoodDeliveries.filter(function (objectArray){
+    return thisNeighborhoodDeliveries.filter(function (value,index,self){
       return self.indexOf(value) === index;
     });
   };
