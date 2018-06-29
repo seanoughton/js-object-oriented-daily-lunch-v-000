@@ -60,7 +60,7 @@ class Neighborhood {
     function onlyUnique(value, index, self) {
       return self.indexOf(value) === index;
     }
-    return thisNeighborhoodDeliveries.uniq();
+    return thisNeighborhoodDeliveries.filter( onlyUnique );
   };
 
 }
