@@ -52,7 +52,7 @@ class Neighborhood {
   meals() {
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
 
-
+    console.log(thisNeighborhoodDeliveries);
     function onlyUnique(value, index, self) {
       //if there are two values(objects) that are the same
       // then self.indexOf(value) returns the same index?
