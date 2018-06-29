@@ -77,6 +77,7 @@ class Customer {
 	      return agg + el.price;
       };
     let customerMeals = this.meals;
+    console.log(customerMeals);
     return customerMeals.reduce(reducer,0);
   };
 
