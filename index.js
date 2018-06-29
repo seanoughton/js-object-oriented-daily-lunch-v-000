@@ -53,16 +53,11 @@ class Neighborhood {
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
 
     function makeUnique(objectArray){
-      //go through each element in the array and compare it to the previous one
-      //if the two elements are the same, then don't add them to the new array
-      const idSorter = function (object1,object2) {
-          return object2.id - object1.id
-      };
-      return objectArray.sort(idSorter);
+
     };
 
-    console.log(makeUnique(thisNeighborhoodDeliveries));
-    console.log(thisNeighborhoodDeliveries);
+    //console.log(makeUnique(thisNeighborhoodDeliveries));
+    //console.log(thisNeighborhoodDeliveries);
     function onlyUnique(value, index, self) {
       return self.indexOf(value) === index;
     }
