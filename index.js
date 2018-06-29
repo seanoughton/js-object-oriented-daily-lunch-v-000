@@ -52,7 +52,7 @@ class Neighborhood {
   meals() {
     //deliveries have a neighborhoodId
     //this.deliveries();
-    thisNeighborhoodDeliveries = this.deliveries();
+    let thisNeighborhoodDeliveries = this.deliveries();
     console.log(thisNeighborhoodDeliveries);
     return store.meals;
   };
