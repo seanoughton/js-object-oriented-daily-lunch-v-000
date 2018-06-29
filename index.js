@@ -53,9 +53,11 @@ class Neighborhood {
     //deliveries have a neighborhoodId
     //this.deliveries();
 
-      return this.deliveries().map( delivery => delivery.meal() );
 
-  
+
+    let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
+    console.log(thisNeighborhoodDeliveries);
+    return store.meals;
   };
 
 }
