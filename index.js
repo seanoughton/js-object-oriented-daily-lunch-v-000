@@ -50,6 +50,7 @@ class Neighborhood {
 
   //returns a unique list of meals that have been ordered in a particular neighborhood (you might want to do this one last)
   meals() {
+    //deliveries have a neighborhoodId
     return store.meals;
   };
 
