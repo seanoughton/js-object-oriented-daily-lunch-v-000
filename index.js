@@ -55,7 +55,7 @@ class Neighborhood {
 
     function onlyUnique(value, index, self) {
       //if there are two values(objects) that are the same
-      // then 
+      // then self.indexOf(value) returns the same index?
       console.log(self.indexOf(value));
       return self.indexOf(value) === index;
     }
