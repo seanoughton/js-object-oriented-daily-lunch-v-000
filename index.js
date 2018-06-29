@@ -56,7 +56,7 @@ class Neighborhood {
       //go through each element in the array and compare it to the previous one
       //if the two elements are the same, then don't add them to the new array
       const idSorter = function (object1,object2) {
-        if (object1.id == object2.id) {
+        if (object1.id === object2.id) {
           return 
         } else {
           return object1.id - object2.id
