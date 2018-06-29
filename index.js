@@ -60,7 +60,8 @@ class Neighborhood {
 
       return self.indexOf(value) === index;
     }
-
+    //A set is a collection of values which can be iterated upon in the order of insertion. A value in the set may only occur once; it is unique in the set’s collection.
+    
     const uniqueValues = [...new Set(thisNeighborhoodDeliveries)];
     //return thisNeighborhoodDeliveries.filter(onlyUnique);
     return uniqueValues;
