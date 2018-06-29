@@ -46,7 +46,12 @@ class Neighborhood {
   //returns all of the customers that live in a particular neighborhood
   customers(){
     return store.customers.filter(customer => customer.neighborhoodId === this.id);
-  }
+  };
+
+  //returns a unique list of meals that have been ordered in a particular neighborhood (you might want to do this one last)
+  meals() {
+
+  };
 
 }
 
