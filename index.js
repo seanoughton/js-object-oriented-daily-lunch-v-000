@@ -61,8 +61,9 @@ class Neighborhood {
       return self.indexOf(value) === index;
     }
 
-    const uniqueValues = [...new Set(thisNeighborhoodDeliveries)]; 
-    return thisNeighborhoodDeliveries.filter(onlyUnique);
+    const uniqueValues = [...new Set(thisNeighborhoodDeliveries)];
+    //return thisNeighborhoodDeliveries.filter(onlyUnique);
+    return uniqueValues;
 
   };
 
