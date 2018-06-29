@@ -76,7 +76,7 @@ class Customer {
     const reducer = function (agg,el,i,arr) {
 	      return agg + el.price;
       };
-    customerMeals = store.meals;
+    let customerMeals = store.meals;
     return customerMeals.reduce(reducer,0);
   };
 
