@@ -59,7 +59,7 @@ class Neighborhood {
     }
     //return thisNeighborhoodDeliveries.filter(onlyUnique);
     return thisNeighborhoodDeliveries.filter(function (objectArray){
-      return objectArray.self.indexOf(objectArray.value) === objectArray.index;
+      return self.indexOf(value) === index;
     });
   };
 
