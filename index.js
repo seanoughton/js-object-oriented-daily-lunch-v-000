@@ -73,10 +73,7 @@ class Customer {
   totalSpent(){
     // all the meals a customer has ordered
     // reduce this array down to the sum of the price of the meals
-    const reducer = function (agg,el,i,arr) {
-	      return agg + el.price;
-      };
-    return store.meals.reduce(reducer,0));
+    
   };
 
 }
