@@ -69,6 +69,11 @@ class Customer {
     return this.deliveries().map( delivery => delivery.meal() );
   };
 
+  //returns the total amount that the customer has spent on food.
+  totalSpent(){
+    
+  };
+
 }
 
 class Meal {
