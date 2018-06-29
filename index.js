@@ -53,9 +53,7 @@ class Neighborhood {
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
 
     function makeUnique(objectArray){
-      objectArray.forEach(function(element){
-        
-      });
+      
     };
 
     function onlyUnique(value, index, self) {
