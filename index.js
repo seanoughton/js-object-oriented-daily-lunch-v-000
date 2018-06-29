@@ -54,7 +54,7 @@ class Neighborhood {
 
     function makeUnique(objectArray){
       //objectArray.indexOf(value)
-      console.log(index);
+      console.log(objectArray);
     };
     makeUnique(thisNeighborhoodDeliveries);
     //console.log(makeUnique(thisNeighborhoodDeliveries));
