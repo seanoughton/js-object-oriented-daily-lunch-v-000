@@ -93,7 +93,7 @@ class Meal {
 //A class method that orders all meal instances by their price in descending order. Use the static keyword to write a class method.
   static byPrice(){
     const numSorter = function(num1,num2){
-      return num1 - num2;
+      return num2 - num1;
     };
     console.log(store.meals.sort(numSorter));
     return store.meals.sort(numSorter);
