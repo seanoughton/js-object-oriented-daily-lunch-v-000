@@ -56,7 +56,7 @@ class Neighborhood {
       //objectArray.indexOf(value)
       console.log(index);
     };
-
+    thisNeighborhoodDeliveries.makeUnique();
     //console.log(makeUnique(thisNeighborhoodDeliveries));
     //console.log(thisNeighborhoodDeliveries);
     function onlyUnique(value, index, self) {
