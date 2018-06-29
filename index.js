@@ -77,7 +77,7 @@ class Customer {
 	      return agg + el.price;
       };
     customerMeals = store.meals;
-    return store.meals;
+    return customerMeals;
   };
 
 }
