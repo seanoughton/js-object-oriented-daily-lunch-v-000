@@ -52,13 +52,7 @@ class Neighborhood {
   meals() {
     let thisNeighborhoodDeliveries = this.deliveries().map( delivery => delivery.meal() );
 
-    function makeUnique(objectArray){
-      //objectArray.indexOf(value)
-      console.log(objectArray);
-    };
-    makeUnique(thisNeighborhoodDeliveries);
-    //console.log(makeUnique(thisNeighborhoodDeliveries));
-    //console.log(thisNeighborhoodDeliveries);
+  
     function onlyUnique(value, index, self) {
       return self.indexOf(value) === index;
     }
